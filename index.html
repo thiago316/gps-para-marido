@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPS para Maridos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>GPS para Maridos</h1>
+    </header>
+    <main>
+        <section id="login">
+            <h2>Login</h2>
+            <form>
+                <div class="input-container">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Usuário" required>
+                </div>
+                <div class="input-container">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Senha" required>
+                </div>
+                <button type="submit">Entrar</button>
+            </form>
+        </section>
+        <section id="mapa">
+            <h2>Localização Atual</h2>
+            <div id="mapa-container"></div>
+            <button id="atualizar"><i class="fas fa-sync-alt"></i> Atualizar Localização</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
